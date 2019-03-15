@@ -1,0 +1,45 @@
+.main-button {
+  color: white;
+  padding: 6px 10px;
+  font-size: 25px;
+  font-weight: 300;
+  border-radius: 5px;
+  margin: 0;
+  transition: 0.2s;
+}
+
+.main-button:hover {
+  transform: scale(1.1)
+}
+
+.main-button a {
+  color: white
+}
+
+.main-button-p {
+  margin: 0;
+}
+
+.angle-down-style {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+@media (max-width: 767.98px) {
+  .main-button-text {
+    display: none;
+  }
+
+  .angle-down-style {
+    display: flex;
+    margin: 0 5px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .angle-down-style {
+    font-size: 30px;
+    margin: 4px 5px
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "eslint.autoFixOnSave": true,
+    "prettier.eslintIntegration": true,
+    "prettier.jsxSingleQuote": false,
+    "prettier.trailingComma": "es5",
+    "editor.formatOnSave": false,
+    "[javascript]": {
+    "editor.formatOnSave": true,
+    }
+}
