@@ -9,6 +9,7 @@ import "./Posters.css";
 
 type PostersProps = React.ComponentType & { posterStore?: PosterStore }
 
+
 class Posters extends React.Component<PostersProps, {}> {
   componentDidMount() {
     this.props.posterStore.getMoviesInfo(this.props.posterStore.page);
